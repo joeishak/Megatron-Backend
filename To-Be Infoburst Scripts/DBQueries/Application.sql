@@ -8,7 +8,9 @@ from [rtb].[dbo].[Comments] c where metricId = CAST(@metric as int)
 --fetchCommentsCount
 Select metricId, (select m.[name] from Metrics m where m.id = metricId ) as 'type', count(comment) as 'commentCount' from Comments GROUP BY metricId;
 --deleteComment
-delete from comments where id = @id
+exec deleteComment @id
+--deleteReplies
+exec deleteReplies @id
 --fetchReplies
 select r.id, r.userId, r.postTimeStamp, r.commentId, r.reply, 
 (select u.fName from [rtb].[dbo].[Users] u WHERE u.id = r.userId ) as 'firstName',

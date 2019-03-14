@@ -64,3 +64,44 @@ GO
 
 
 
+USE [RTB]
+GO
+USE [RTB]
+GO
+
+/****** Object:  StoredProcedure [dbo].[deleteComment]    Script Date: 2/28/2019 9:28:11 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[deleteComment]
+@id varchar(50)
+
+AS
+ delete from comments where id = @id;
+
+GO
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[deleteReplies]    Script Date: 2/28/2019 9:28:11 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[deleteReplies]
+@id varchar(50)
+
+AS
+ Delete from replies where commentId = @id;
+
+GO
+
