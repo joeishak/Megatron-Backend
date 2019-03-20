@@ -32,3 +32,6 @@ exec postReply  '@userId', '@postDateTime', @commentId, '@comment'
 
 --UpdateSettings
 exec updateSettings '@quarter', '@segment','@user', '@geos',  '@subscriptions', '@products', '@routes', '@markets'
+
+--AddFeedback
+exec dbo.addFeedback  '@user', '@feature', '@message', '@type'

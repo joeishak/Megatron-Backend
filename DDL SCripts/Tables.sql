@@ -45,3 +45,12 @@ postTimeStamp datetime NOT NULL,
 reply varchar(2000) null,
 constraint REPLY_USER_ID_FOREIGN_KEY foreign key(userId) references Users(id),
 constraint REPLY_COMMENT_ID_FOREIGN_KEY foreign key(commentId) references Comments(id));
+
+
+create table feedback (
+    id int identity(1,1) primary key, 
+    userId  varchar(50),
+    feature varchar(50),
+    message varchar(250),
+    type varchar(20)
+)

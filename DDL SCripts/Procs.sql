@@ -105,3 +105,25 @@ AS
 
 GO
 
+
+/****** Object:  StoredProcedure [dbo].[addFeedback]    Script Date: 2/28/2019 9:28:11 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE PROCEDURE [dbo].[addFeedback]
+@user  varchar(50),
+@feature varchar(50),
+@message varchar(250),
+@type varchar(20)
+
+AS
+ Insert into feedback(userId,feature,message,type) Values(@user,@feature,@message,@type);
+GO
+
+
+
