@@ -27,8 +27,8 @@ Set @totalUsersWithCode = (select count(*) from users where id like @insertedCod
 if(@totalUsersWithCode = 0)
 begin
 	insert into users (id, fName, lName, email) values(@insertedCode, @insertedfName, @insertedlName, @insertedEmail);
-	insert into Settings ( userid, defaultQuarter,defaultSegment, defaultSummaryView, defaultFinKpi, defaultJournKpi,geoFilters,productFilters,subscriptionFilters,routeFilters,marketFilters)  
-	values( @insertedCode, '2018-Q3', 'DIGITAL MEDIA', 'Financial','1','1','[]','[]','[]','[]','[]')
+	insert into Settings ( userid, defaultQuarter,defaultSegment,geoFilters,productFilters,subscriptionFilters,routeFilters,marketFilters)  
+	values( @insertedCode, '2018-Q3', 'DIGITAL MEDIA','[]','[]','[]','[]','[]')
 end
 
 select * from settings where userid like @insertedCode

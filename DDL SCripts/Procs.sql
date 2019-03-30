@@ -35,7 +35,7 @@ CREATE PROCEDURE [dbo].[postReply]
 @commentId int,
 @comment varchar(2000)
 AS
-INSERT INTO Replies values(@userId, CONVERT(datetime, @postDateTime ), @commentId, @comment)
+INSERT INTO Replies values(@userId,  @commentId, CONVERT(datetime, @postDateTime ), @comment)
  Select * from replies where userId like @userId and commentId = @commentId and reply = @comment
 
 GO
@@ -63,11 +63,6 @@ AS
 GO
 
 
-
-USE [RTB]
-GO
-USE [RTB]
-GO
 
 /****** Object:  StoredProcedure [dbo].[deleteComment]    Script Date: 2/28/2019 9:28:11 AM ******/
 SET ANSI_NULLS ON
