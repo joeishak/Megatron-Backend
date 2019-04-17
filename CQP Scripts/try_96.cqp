@@ -1,0 +1,43 @@
+$server=https://rtb-dev.corp.adobe.com
+$port=8551
+$user=admin
+$password=admin
+$xdc=96
+$mode=cache
+
+ TryActualTargetPrimary(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TrySecondary(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TryGeoQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TryMAQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TryQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TryMultiChartQuery(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TRYProdNameQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TRYSignupAppQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )
+        TRYSignupCatQTD(quarterFilters='2019-Q2' ;geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;maFilters='?', 'ANZ', 
+'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 
+'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+;SignupCatFilters='API', 'CREATIVE SDK', 'DESKTOP', 'MAPPING TBD', 'MOBILE', 'SERVICE', 'UNKNOWN', 'WEB' )

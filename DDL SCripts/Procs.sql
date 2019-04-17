@@ -74,11 +74,11 @@ GO
 
 
 CREATE PROCEDURE [dbo].[deleteComment]
-@id varchar(50)
-
+@id varchar(50),
+@metric int
 AS
  delete from comments where id = @id;
-
+select * from comments where metricId = @metric
 GO
 
 GO

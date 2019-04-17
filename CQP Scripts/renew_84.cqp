@@ -1,0 +1,103 @@
+$server=https://rtb-dev.corp.adobe.com
+$port=8551
+$user=admin
+$password=admin
+$xdc=84
+$mode=cache
+
+     RenewUIandPFPrimary(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewSecondary(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewMultiChartQuery(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewGeoQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewMAQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewSegmentsQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )
+        RenewProductCategoryQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';routeFilters='ADOBE.COM/CC.COM', 'APP STORE', 'E-TAIL/RETAIL',
+'RESELLER', 'UNKNOWN';segmentFilters='Digital Media';subscriptionFilters='<UNKNOWN>', 'ACROBAT CC',
+'CCE COMPLETE', 'CCE SINGLE APP', 'CCI COMPLETE', 'CCI SINGLE APP', 'CCI STOCK LARGE', 'CCI STOCK OTHER',
+'CCI STOCK SMALL', 'CCP CLASSIC', 'CCP NEW', 'CCT COMPLETE', 'CCT SINGLE APP', 'CCT STOCK LARGE', 
+'CCT STOCK OTHER', 'CCT STOCK SMALL', 'CSMB_ETLA', 'DCE SIGN', 'DCE SINGLE APP', 'DCI SINGLE APP', 
+'DCT SINGLE APP', 'EEA', 'LIGHTROOM CC', 'LIGHTROOM CC IAP', 'LIGHTROOM CC MOBILE', 'NON-CCM', 'NON-CCT',
+ 'UNKNOWN';productFilters='Acrobat CC', 'Acrobat DC', 'All Apps', 'CSMB ETLA', 'Illustrator', 'InDesign',
+ 'Other Single Apps', 'PDF Services', 'Photography', 'Photoshop', 'Premiere Pro', 'Rush', 'Sign', 'Spark',
+ 'Stock', 'SUBD', 'UNKNOWN', 'XD' )

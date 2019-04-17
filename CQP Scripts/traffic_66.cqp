@@ -1,0 +1,64 @@
+$server=https://rtb-dev.corp.adobe.com
+$port=8551
+$user=admin
+$password=admin
+$xdc=66
+$mode=cache
+
+
+
+TrafficPrimary(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficSecondary(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficMultichart(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficGeoQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficLTCQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficMAQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficWebSegQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficConvTypeQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficMobVsDeskQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')
+DiscoverTrafficNewVsRepQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' 
+;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+ 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI',
+  'TW', 'UK', 'UNKNOWN', 'US' ;WebSegFilters='DIGITAL MEDIA' ;VisitTypeFilters='All Visits' 
+  ;LastTouchChannelFilters='ALL' ;ConvTypeFilters='DIRECT', 'LAPSED', 'PAID', 'STOPPED', 'TRIALIST', 'UNKNOWN')

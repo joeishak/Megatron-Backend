@@ -1,0 +1,150 @@
+$server=https://rtb-dev.corp.adobe.com
+$port=8551
+$user=admin
+$password=admin
+$xdc=69
+$mode=cache
+
+        DiscoverMUSecondary(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverMUMultiChart(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverMUQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverMUGeoQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverMUMAQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverMUChannelQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+         ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+          'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+          'SWI', 'TW', 'UK', 'UNKNOWN', 'US' ;channelMUFilters='ALL'  Paid Media SS params ;geoFilters='AMER',
+           'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2' ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN',
+            'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX',
+             'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 'UNKNOWN', 'US' 
+             ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+
+     DiscoverPMSUQFMSecondary(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverPMSUQFMMultiChart(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverPMSUQFMQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverPMSUQFMGeoQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverPMSUQFMMAQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+        DiscoverPMSUQFMChannelQTD(geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN' ;quarterFilters='2019-Q2'
+      ;maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN', 'ITA', 
+      'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 'SWI', 'TW', 'UK', 
+      'UNKNOWN', 'US' ;channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 'SOCIAL', 'UNKNOWN' )
+
+
+     BuyMarketSourcedARRSecondary(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMktgSourceARRMultiChart(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMKTGSourcedARRQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMKTGSourcedARRGeoQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMKTGSourcedARRMAQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMKTGSourcedARRSegmentQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+        BuyMKTGSourcedARRChannelQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';segmentFilters='Digital Media';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+
+
+
+BuyPMSpendSecondary(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+BuyPMSpendMultiChart(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+BuyPMSpendQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+BuyPMSpendGeoQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+BuyPMSpendMAQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
+BuyPMSpendChannelQTD(quarterFilters='2019-Q2';geoFilters='AMER', 'ASIA', 'EMEA', 'JPN', 'UNKNOWN';
+maFilters='?', 'ANZ', 'BEN', 'BRZ', 'CAN', 'CHN', 'EE', 'FRA', 'GER', 'HK', 'HKT', 'IBE', 'IN',
+'ITA', 'JPN', 'KOR', 'ME', 'MED', 'MET', 'MEX', 'NORD', 'RCIS', 'ROW', 'SEA', 'SLAM', 'SSAI', 
+'SWI', 'TW', 'UK', 'UNKNOWN', 'US';channelPMFilters='DISPLAY', 'EMAIL', 'PAID SEARCH', 
+'SOCIAL', 'UNKNOWN')
