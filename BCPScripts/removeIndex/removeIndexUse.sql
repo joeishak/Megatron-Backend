@@ -1,0 +1,2 @@
+DROP INDEX IDX_Use;
+DELETE FROM C_UseDBQuery;

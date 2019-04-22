@@ -1,0 +1,2 @@
+DROP INDEX IDX_Marketing;
+DELETE FROM C_MarketDBQuery;

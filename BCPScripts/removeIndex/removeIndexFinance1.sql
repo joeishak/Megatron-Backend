@@ -1,0 +1,3 @@
+DROP INDEX IDX_Finance1;
+
+DELETE FROM C_FinanceDBQuery;

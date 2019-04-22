@@ -1,0 +1,2 @@
+DROP INDEX IDX_Renew;
+DELETE FROM C_RetentionDBQuery;

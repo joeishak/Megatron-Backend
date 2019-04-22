@@ -1,0 +1,2 @@
+DROP INDEX IDX_Try;
+DELETE FROM C_TryDBQuery;
