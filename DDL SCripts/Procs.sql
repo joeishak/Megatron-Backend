@@ -1,3 +1,26 @@
+--Create a procedure to add a user to the database only if they do not exist
+create procedure addUser
+ @totalUsersWithCode as int,
+ @insertedCode as varchar(30),
+ @insertedfName as varchar(50),
+ @insertedlName as varchar(50),
+ @insertedEmail as varchar(50),
+ @quarter as varchar(50),
+ @segment as varchar(50),
+ @nonDmSegment as varchar(5000),
+
+as
+update  users
+Set @totalUsersWithCode = (select count(*) from users where id like @insertedCode)
+if(@totalUsersWithCode = 0)
+begin
+	insert into users (id, fName, lName, email) values(@insertedCode, @insertedfName, @insertedlName, @insertedEmail);
+	insert into Settings ( userid, defaultQuarter,defaultSegment,nondmsegments,signupsource,geoFilters,productFilters,subscriptionFilters,routeFilters,marketFilters)  
+	values( @insertedCode, @quarter, @segment,@nonDmSegment,'[]','[]','[]','[]','[]','[]')
+end
+
+select * from settings where userid like @insertedCode
+GO
 --Create Procedure to update the settings for the user 
 create procedure updateSettings
 @quarter varchar(50),
@@ -7,7 +30,9 @@ create procedure updateSettings
 @subscriptions varchar(5000),
 @products varchar(5000),
 @routes varchar(5000),
-@markets varchar(5000)
+@markets varchar(5000),
+@nonDmSegment as varchar(5000),
+ @signupsource as varchar(5000)
 as
 update  settings
 set defaultQuarter = @quarter,
@@ -16,7 +41,9 @@ set defaultQuarter = @quarter,
 	subscriptionFilters = @subscriptions,
 	productFilters = @products,
 	routeFilters = @routes,
-	marketFilters = @markets
+	marketFilters = @markets,
+	nondmsegments = @nonDmSegment,
+	signupsource = @signupsource
 where userid = @user;
 select * from settings where userid = @user;
 

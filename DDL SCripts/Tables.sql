@@ -15,6 +15,8 @@ defaultSegment varchar(50) null,
 geoFilters varchar(5000),
 productFilters varchar(5000),
 subscriptionFilters varchar(5000),
+signupsource varchar(5000),
+nondmsegments varchar(5000),
 routeFilters varchar(5000),
 marketFilters varchar(5000),
 CONSTRAINT SETTING_USER_ID_FOREIGN_KEY FOREIGN KEY(USERiD) REFERENCES users(id)

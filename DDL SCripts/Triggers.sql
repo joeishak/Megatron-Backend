@@ -28,7 +28,7 @@ if(@totalUsersWithCode = 0)
 begin
 	insert into users (id, fName, lName, email) values(@insertedCode, @insertedfName, @insertedlName, @insertedEmail);
 	insert into Settings ( userid, defaultQuarter,defaultSegment,geoFilters,productFilters,subscriptionFilters,routeFilters,marketFilters)  
-	values( @insertedCode, '2018-Q3', 'DIGITAL MEDIA','[]','[]','[]','[]','[]')
+	values( @insertedCode, concat(datename(yyyy,getDate()),'-Q',datename(qq,getDate())), 'DIGITAL MEDIA','[]','[]','[]','[]','[]')
 end
 
 select * from settings where userid like @insertedCode

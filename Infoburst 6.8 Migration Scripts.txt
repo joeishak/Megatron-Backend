@@ -1,0 +1,3 @@
+GTMPOC / InfoSol DB Connection 
+NewUser Query - exec addUser 0,'@userId','@fname','@lname','@email','@quarter','@segment','@nonDmSegments';
+UpdateSEttings - exec updateSettings '@quarter', '@segment','@user', '@geos',  '@subscriptions', '@products', '@routes', '@markets', '@nonDmSegment', '@signupsource'
